@@ -20,15 +20,15 @@ export const products = [
     colors: [
       {
         color: 'black',
-        image: '/assets/images/Raycon_Everyday_black.jpg',
+        image: '/project5-ember/assets/images/Raycon_Everyday_black.jpg',
       },
       {
         color: 'white',
-        image: '/assets/images/Raycon_Everyday_white.jpg',
+        image: '/project5-ember/assets/images/Raycon_Everyday_white.jpg',
       },
       {
         color: 'rosegold',
-        image: '/assets/images/Raycon_Everyday_rosegold.jpg',
+        image: '/project5-ember/assets/images/Raycon_Everyday_rosegold.jpg',
       },
     ],
   },
@@ -49,7 +49,7 @@ export const products = [
     colors: [
       {
         color: 'white',
-        image: '/assets/images/nike-af1-white.png',
+        image: '/project5-ember/assets/images/nike-af1-white.png',
       },
     ],
   },
