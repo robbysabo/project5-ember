@@ -6,7 +6,7 @@ export default class GeneralContainerComponent extends Component {
 
   get itemCount() {
     return this.shoppingCart.itemList.reduce((total, item) => {
-      return (total += item.count);
+      return Number(total += item.count);
     }, 0);
   }
 }
