@@ -4,7 +4,7 @@ module.exports = function (environment) {
   const ENV = {
     modulePrefix: 'project5-ember',
     environment,
-    rootURL: '/',
+    rootURL: '/project5-ember/',
     locationType: 'history',
     EmberENV: {
       EXTEND_PROTOTYPES: false,
