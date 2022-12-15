@@ -10,7 +10,7 @@ class Item {
   price;
 
   constructor(item) {
-    this.count = item.count;
+    this.count = Number(item.count);
     this.name = item.name;
     this.color = item.color;
     this.image = item.image;
