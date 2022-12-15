@@ -1,0 +1,9 @@
+<GeneralContainer>
+  <h1 class='title d-inline'>Day-Lee Look</h1>
+  <hr />
+  <div class='d-lg-flex justify-content-center align-items-center'>
+    {{#each this.model as |product|}}
+      <Product @product={{product}} />
+    {{/each}}
+  </div>
+</GeneralContainer>
